@@ -1,6 +1,6 @@
 
 /*create by gz*/
-package com.ctgu.gz.icms.dao;
+package com.gz.icms.dao;
 import java.util.List;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
@@ -21,9 +21,9 @@ public interface ClassDao {
 	public Boolean delete(int id) throws Exception;
 
 	@Insert("insert into class(id,name,teacherid,courseid) values(#{id},#{name},#{teacherid},#{courseid})")
-	public Boolean insert(TbClass class) throws Exception;
+	public Boolean insert(TbClass cls) throws Exception;
 
 	@Update("update class set  id=#{id}, name=#{name}, teacherid=#{teacherid}, courseid=#{courseid} where id=#{id}")
-	public Boolean update(TbClass class) throws Exception;
+	public Boolean update(TbClass cls) throws Exception;
 
 }

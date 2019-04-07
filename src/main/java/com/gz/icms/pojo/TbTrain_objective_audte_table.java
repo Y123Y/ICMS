@@ -1,5 +1,5 @@
 /* create by gz */
-package com.ctgu.gz.icms.pojo;
+package com.gz.icms.pojo;
 import java.io.Serializable;
 
 public class TbTrain_objective_audte_table implements Serializable {

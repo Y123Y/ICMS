@@ -1,6 +1,6 @@
 
 /*create by gz*/
-package com.ctgu.gz.icms.dao;
+package com.gz.icms.dao;
 import java.util.List;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
